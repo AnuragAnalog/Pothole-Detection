@@ -72,3 +72,5 @@ one can create an account/login using his driving license.
 
 **Constraints**
 There should be enough light to detect the pothole, and car should be moving with a average speed of 40-60km/hr to get a good quality of the video.
+
+Dataset link: [link](https://www.kaggle.com/sachinpatel21/pothole-image-dataset)
