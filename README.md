@@ -12,7 +12,7 @@ Pothole detection and alter system which detects potholes on the road raspberry 
 
 * Anurag Peddi(17MCME13)
 
-* Yagnahaun Jonnadula(17MCME23)
+* Yagnahaun Jonnadula(17MCME22)
 
 **Imapct**
 
