@@ -133,10 +133,17 @@ If the device is enclosed in a box like structure then, some of the above risks 
 *Software*
 
 ## Chapter-7
+### Challenges
+The challenges infront are, the budget as we cant take that to a high budget model so that it can be used by many and should get a high pixel camera with a low budget and the model should not do false interpretations of the pothole and make the user certain about this model.
+
 ### Possible extensions
 1. To make it budget friendly.
 2. Reduce the latency between the uploads.
 3. Detect potholes even when the car is at very high speed.
+
+There could be even more possibilities of extending the model to a state at which it not only detects the potholes but also detecting the fixed potholes and updating the earlier data and detecting speed brakers where the drivers need to slow down.
+Another extension that we can make is to estimate the depth of the pothole and categorizing them to different deifferent level of danger and alert the driver about that danger whether he can travel on that road or not.
+And can be notified to higher officials for the fixing of these potholes.
 
 **Constraints**
 There should be enough light to detect the pothole, and car should be moving with a average speed of 40-60km/hr to get a good quality of the video.
