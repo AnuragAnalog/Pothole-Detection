@@ -1,7 +1,7 @@
 # Pothole Detection
 
 Software Project Management Plan
-This document serves as the project plan for the Pothole detection. The content of this document is divided into ___ chapters: .
+This document serves as the project plan for the Pothole detection. The content of this document are divided into 7 chapters:
 
 ## Introduction
 
@@ -44,7 +44,7 @@ It roughly costs over 8000 to 10000.
 **System Functions**
 The embedded device processes the incoming stream of video and detects any pothole in the stream, if any it immediately intimates the user with a signal.
 
-It also saves, the information of pothole detection and coordinates in a file for cross validation.
+It also saves, the information of pothole detected and coordinates in a file for cross validation.
 
 *Functional Requirements:*
 The system can also provide it with three features like
@@ -67,15 +67,15 @@ As we are using a pretrained model for detecting the potholes, the time contrain
 
 *product requirements:*
 the system restarts once for every 6 hours of working, which will flush all the cache.
-additional to this we need to run the monthly updates.
+additional to this we need to run the monthly updates to keep the software upto date.
 as the lifespan of the pi camera is less compared to raspberry pi we need to change it once every 5 years.
 
-organiational requirements
+*Organiational requirements*
 one can create an account/login using his driving license.
 
 The version control system  which we are using is git.
 To make the python scripts standalone we are using a package called pyinstaller.
-Unit testing tools which we arre going to use are: pytest, doctest
+Unit testing tools which we are going to use are: pytest, doctest
 Continuous integration will be done by Travis CI.
 
 **Constraints**
@@ -108,7 +108,7 @@ The data should be transmitted only in a secure environment.
 3) Detect potholes even when the car is at very high speed.
 
 *The automation of the model goes on this process:*
-The sensor nodes on the car and the gps reciever can detect or identify the potholes on the early note or the manual recordings are used to update the location of the pothole to the data file which runs through a pothole detection algorithm which then can give the accurate postion of the detected potholes.
+The sensor nodes on the car and the GPS reciever can detect or identify the potholes on the early note or the manual recordings are used to update the location of the pothole to the data file which runs through a pothole detection algorithm which then can give the accurate postion of the detected potholes.
 
 *Time Line for development of this model:*
 
