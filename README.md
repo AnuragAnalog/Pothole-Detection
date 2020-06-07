@@ -16,6 +16,9 @@ Pothole detection and alter system which detects potholes on the road raspberry 
 
 **Imapct**
 
+In this fast moving world, people want to reach their destinations as soon as possible. There are some apps that suggests us the routes which can make us reach our destination early and there are some apps that shows the all possible routes with traffic congustion for whatever reason it may be, such as google maps and many more. 
+But there are less number of apps that tells the condition of the road whether it is good to travel or not, whether it suggests the route to the driver based on the condition of the road. So this model mainly focuses on the travel safety of the passengers and update the passengers with the best route to travel.
+
 Over the last five years, the number of deaths caused by the potholes are around 15000, if we can implement this system and use it, then there is a chance that we can reduce the number of deaths.
 
 **Budget**
@@ -86,15 +89,32 @@ This will also be carried out during the demonstartion to our stakeholders(exclu
 *Defect testing:* For defect testing we record some real world videos of road and present it, which not only includes images of road but, also images of some patterns which are similar to potholes, to measure how accurate is it detecting potholes, when both potholes and potholes like patterns are present.
 
 **Risk Mitigation**
-one of the risk which the device faces is external accidents/shocks which are unpredictables
+One of the risk which the device faces is external accidents/shocks which are unpredictables
 example:
 * Someone hitting it
 * Snow covering the lens
 * camera being covered by some object.
 * Rain water going into the circuits and frying them.
 
+If the device is enclosed in a box like structure then, some of the above risks can be avoided.
+
+The other kind of risks which the device faces is privacy and security of data.
+The data should be transmitted only in a secure environment.
+
 ## Possible Extensions
 
 1) To make it budget friendly.
 2) Reduce the latency between the uploads.
 3) Detect potholes even when the car is at very high speed.
+
+*The automation of the model goes on this process:*
+The sensor nodes on the car and the gps reciever can detect or identify the potholes on the early note or the manual recordings are used to update the location of the pothole to the data file which runs through a pothole detection algorithm which then can give the accurate postion of the detected potholes.
+
+*Time Line for development of this model:*
+
+Milestone 1 : March 12 : First phase Idea completion
+Milestone 2 : April 19 : Completeion of the planning of designing the model (Desing of the working the model)
+Milestone 3 : Date : Gathering all the units required for the model
+Milestone 4: Date : Assembling the units to a well designed model
+Milestone 5 : Date : Testing the model with all the data sets
+Milestone 6 : Date : Final model that is ready to deliver.
