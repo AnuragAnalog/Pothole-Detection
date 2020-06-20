@@ -48,13 +48,25 @@
 									"subViews": [
 										{
 											"_type": "LabelView",
+											"_id": "AAAAAAFy0R9neSU+g9w=",
+											"_parent": {
+												"$ref": "AAAAAAFyy6b6K1QdjT0="
+											},
+											"font": "Arial;13;0",
+											"left": 82,
+											"top": 253,
+											"width": 188,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
 											"_id": "AAAAAAFyy6+/UtLeteY=",
 											"_parent": {
 												"$ref": "AAAAAAFyy6b6K1QdjT0="
 											},
 											"font": "Arial;13;0",
-											"left": 114,
-											"top": 245,
+											"left": 82,
+											"top": 253,
 											"width": 188,
 											"height": 13
 										},
@@ -65,8 +77,8 @@
 												"$ref": "AAAAAAFyy6b6K1QdjT0="
 											},
 											"font": "Arial;13;0",
-											"left": 114,
-											"top": 245,
+											"left": 82,
+											"top": 253,
 											"width": 188,
 											"height": 13
 										},
@@ -77,8 +89,8 @@
 												"$ref": "AAAAAAFyy6b6K1QdjT0="
 											},
 											"font": "Arial;13;0",
-											"left": 114,
-											"top": 250,
+											"left": 82,
+											"top": 258,
 											"width": 188,
 											"height": 13,
 											"text": "Camera",
@@ -91,12 +103,14 @@
 												"$ref": "AAAAAAFyy6b6K1QdjT0="
 											},
 											"font": "Arial;13;0",
+											"left": -32,
+											"top": 8,
 											"height": 13
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 104,
-									"top": 240,
+									"left": 72,
+									"top": 248,
 									"width": 208,
 									"height": 96,
 									"nameLabel": {
@@ -120,8 +134,8 @@
 												"$ref": "AAAAAAFyy6cqOFQpQ3E="
 											},
 											"font": "Arial;13;0",
-											"left": 410,
-											"top": 280,
+											"left": 362,
+											"top": 176,
 											"width": 156,
 											"height": 13,
 											"text": "Pothole detection unit",
@@ -134,15 +148,15 @@
 												"$ref": "AAAAAAFyy6cqOFQpQ3E="
 											},
 											"font": "Arial;13;0",
-											"left": 410,
-											"top": 253,
+											"left": 362,
+											"top": 149,
 											"width": 156,
 											"height": 13
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 400,
-									"top": 248,
+									"left": 352,
+									"top": 144,
 									"width": 176,
 									"height": 72,
 									"nameLabel": {
@@ -164,13 +178,25 @@
 									"subViews": [
 										{
 											"_type": "LabelView",
+											"_id": "AAAAAAFy0R9neyVKrrA=",
+											"_parent": {
+												"$ref": "AAAAAAFyy6ePNFQ1Sck="
+											},
+											"font": "Arial;13;0",
+											"left": 618,
+											"top": 245,
+											"width": 188,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
 											"_id": "AAAAAAFyy6+/U9Lp7F8=",
 											"_parent": {
 												"$ref": "AAAAAAFyy6ePNFQ1Sck="
 											},
 											"font": "Arial;13;0",
-											"left": 650,
-											"top": 237,
+											"left": 618,
+											"top": 245,
 											"width": 188,
 											"height": 13
 										},
@@ -181,8 +207,8 @@
 												"$ref": "AAAAAAFyy6ePNFQ1Sck="
 											},
 											"font": "Arial;13;0",
-											"left": 650,
-											"top": 237,
+											"left": 618,
+											"top": 245,
 											"width": 188,
 											"height": 13
 										},
@@ -193,8 +219,8 @@
 												"$ref": "AAAAAAFyy6ePNFQ1Sck="
 											},
 											"font": "Arial;13;0",
-											"left": 650,
-											"top": 242,
+											"left": 618,
+											"top": 250,
 											"width": 188,
 											"height": 13,
 											"text": "Cloud",
@@ -207,12 +233,14 @@
 												"$ref": "AAAAAAFyy6ePNFQ1Sck="
 											},
 											"font": "Arial;13;0",
+											"left": -32,
+											"top": 8,
 											"height": 13
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 640,
-									"top": 232,
+									"left": 608,
+									"top": 240,
 									"width": 208,
 									"height": 96,
 									"nameLabel": {
@@ -238,17 +266,18 @@
 											"model": {
 												"$ref": "AAAAAAFyy6fOfFRAmDE="
 											},
-											"visible": false,
 											"font": "Arial;13;0",
-											"left": 355,
-											"top": 265,
+											"left": 109,
+											"top": 163,
+											"width": 119.2470703125,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 15,
 											"hostEdge": {
 												"$ref": "AAAAAAFyy6fOfFRCYo4="
 											},
-											"edgePosition": 1
+											"edgePosition": 1,
+											"text": "Send Image of Road"
 										}
 									],
 									"font": "Arial;13;0",
@@ -259,7 +288,7 @@
 										"$ref": "AAAAAAFyy6b6K1QdjT0="
 									},
 									"lineStyle": 2,
-									"points": "311:286;400:286",
+									"points": "168:248;168:184;352:184",
 									"nameLabel": {
 										"$ref": "AAAAAAFyy6fOfVRDh3Q="
 									}
@@ -283,17 +312,18 @@
 											"model": {
 												"$ref": "AAAAAAFyy6fluVRJ8WU="
 											},
-											"visible": false,
 											"font": "Arial;13;0",
-											"left": 607,
-											"top": 261,
+											"left": 598,
+											"top": 169,
+											"width": 272.44140625,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 15,
 											"hostEdge": {
 												"$ref": "AAAAAAFyy6flulRLS30="
 											},
-											"edgePosition": 1
+											"edgePosition": 1,
+											"text": "Upload Information to cloud if there is a pothole"
 										}
 									],
 									"font": "Arial;13;0",
@@ -304,7 +334,7 @@
 										"$ref": "AAAAAAFyy6cqOFQpQ3E="
 									},
 									"lineStyle": 2,
-									"points": "575:282;640:282",
+									"points": "527:176;720:176;720:240",
 									"nameLabel": {
 										"$ref": "AAAAAAFyy6flulRMG44="
 									}
@@ -334,13 +364,25 @@
 									"subViews": [
 										{
 											"_type": "LabelView",
+											"_id": "AAAAAAFy0R9nfiVYDVo=",
+											"_parent": {
+												"$ref": "AAAAAAFyy6/2dtL7ZJU="
+											},
+											"font": "Arial;13;0",
+											"left": 362,
+											"top": 397,
+											"width": 172,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
 											"_id": "AAAAAAFyy6/2eNMBG28=",
 											"_parent": {
 												"$ref": "AAAAAAFyy6/2dtL7ZJU="
 											},
 											"font": "Arial;13;0",
-											"left": 410,
-											"top": 461,
+											"left": 362,
+											"top": 397,
 											"width": 172,
 											"height": 13
 										},
@@ -351,8 +393,8 @@
 												"$ref": "AAAAAAFyy6/2dtL7ZJU="
 											},
 											"font": "Arial;13;0",
-											"left": 410,
-											"top": 466,
+											"left": 362,
+											"top": 402,
 											"width": 172,
 											"height": 13,
 											"text": "Driver",
@@ -365,12 +407,14 @@
 												"$ref": "AAAAAAFyy6/2dtL7ZJU="
 											},
 											"font": "Arial;13;0",
+											"left": -48,
+											"top": -64,
 											"height": 13
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 400,
-									"top": 456,
+									"left": 352,
+									"top": 392,
 									"width": 192,
 									"height": 72,
 									"nameLabel": {
@@ -396,17 +440,18 @@
 											"model": {
 												"$ref": "AAAAAAFyy7Afz9MF7M0="
 											},
-											"visible": false,
 											"font": "Arial;13;0",
-											"left": 502,
-											"top": 380,
+											"left": 373,
+											"top": 296,
+											"width": 178.46435546875,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 15,
 											"hostEdge": {
 												"$ref": "AAAAAAFyy7Afz9MHTNc="
 											},
-											"edgePosition": 1
+											"edgePosition": 1,
+											"text": "Alert Driver if there is a pothole"
 										}
 									],
 									"font": "Arial;13;0",
@@ -417,7 +462,7 @@
 										"$ref": "AAAAAAFyy6cqOFQpQ3E="
 									},
 									"lineStyle": 2,
-									"points": "488:319;488:456",
+									"points": "448:215;448:392",
 									"nameLabel": {
 										"$ref": "AAAAAAFyy7Afz9MIWlo="
 									}
@@ -438,6 +483,7 @@
 									"_parent": {
 										"$ref": "AAAAAAFyy6b6K1Qb/ds="
 									},
+									"name": "Send Image of Road",
 									"source": {
 										"$ref": "AAAAAAFyy6b6K1Qb/ds="
 									},
@@ -461,6 +507,7 @@
 									"_parent": {
 										"$ref": "AAAAAAFyy6cqOFQn7Cc="
 									},
+									"name": "Upload Information to cloud if there is a pothole",
 									"source": {
 										"$ref": "AAAAAAFyy6cqOFQn7Cc="
 									},
@@ -474,6 +521,7 @@
 									"_parent": {
 										"$ref": "AAAAAAFyy6cqOFQn7Cc="
 									},
+									"name": "Alert Driver if there is a pothole",
 									"source": {
 										"$ref": "AAAAAAFyy6cqOFQn7Cc="
 									},

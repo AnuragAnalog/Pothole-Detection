@@ -518,7 +518,7 @@
 													"left": 397,
 													"top": 113,
 													"width": 14,
-													"height": 29
+													"height": 32
 												}
 											],
 											"font": "Arial;13;0",
@@ -562,17 +562,17 @@
 														"$ref": "AAAAAAFxlwqkJcdKrs4="
 													},
 													"font": "Arial;13;0",
-													"left": 216,
-													"top": 149,
-													"width": 155.37158203125,
+													"left": 200,
+													"top": 127,
+													"width": 173.41162109375,
 													"height": 13,
-													"alpha": 1.5707963267948966,
-													"distance": 10,
+													"alpha": -0.8960559943277389,
+													"distance": 12.806248474865697,
 													"hostEdge": {
 														"$ref": "AAAAAAFxlwqkJcdLqnw="
 													},
 													"edgePosition": 1,
-													"text": "2 : Acknowledge that its on"
+													"text": "2 : Login(Ask for Credentials*)"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -586,7 +586,7 @@
 													"visible": false,
 													"font": "Arial;13;0",
 													"left": 293,
-													"top": 164,
+													"top": 163,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 25,
@@ -607,7 +607,7 @@
 													"visible": false,
 													"font": "Arial;13;0",
 													"left": 294,
-													"top": 129,
+													"top": 128,
 													"height": 13,
 													"alpha": -1.5707963267948966,
 													"distance": 10,
@@ -628,7 +628,7 @@
 													"visible": false,
 													"font": "Arial;13;0",
 													"left": 184,
-													"top": 145,
+													"top": 144,
 													"width": 14,
 													"height": 25
 												}
@@ -640,7 +640,7 @@
 											"tail": {
 												"$ref": "AAAAAAFxlwPvksYOYi8="
 											},
-											"points": "404:145;184:145",
+											"points": "404:144;184:144",
 											"nameLabel": {
 												"$ref": "AAAAAAFxlwqkJcdMPDc="
 											},
@@ -652,6 +652,117 @@
 											},
 											"activation": {
 												"$ref": "AAAAAAFxlwqkJcdP2QI="
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "AAAAAAFy0SoQet9gj2s=",
+											"_parent": {
+												"$ref": "AAAAAAFxlwCuV8XUpNI="
+											},
+											"model": {
+												"$ref": "AAAAAAFy0SoQet9fc6g="
+											},
+											"subViews": [
+												{
+													"_type": "EdgeLabelView",
+													"_id": "AAAAAAFy0SoQet9h4Kk=",
+													"_parent": {
+														"$ref": "AAAAAAFy0SoQet9gj2s="
+													},
+													"model": {
+														"$ref": "AAAAAAFy0SoQet9fc6g="
+													},
+													"font": "Arial;13;0",
+													"left": 222,
+													"top": 152,
+													"width": 136.56982421875,
+													"height": 13,
+													"alpha": 1.5707963267948966,
+													"distance": 10,
+													"hostEdge": {
+														"$ref": "AAAAAAFy0SoQet9gj2s="
+													},
+													"edgePosition": 1,
+													"text": "3 : Provide Credentials*"
+												},
+												{
+													"_type": "EdgeLabelView",
+													"_id": "AAAAAAFy0SoQet9ikdA=",
+													"_parent": {
+														"$ref": "AAAAAAFy0SoQet9gj2s="
+													},
+													"model": {
+														"$ref": "AAAAAAFy0SoQet9fc6g="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"left": 290,
+													"top": 137,
+													"height": 13,
+													"alpha": 1.5707963267948966,
+													"distance": 25,
+													"hostEdge": {
+														"$ref": "AAAAAAFy0SoQet9gj2s="
+													},
+													"edgePosition": 1
+												},
+												{
+													"_type": "EdgeLabelView",
+													"_id": "AAAAAAFy0SoQet9jLa0=",
+													"_parent": {
+														"$ref": "AAAAAAFy0SoQet9gj2s="
+													},
+													"model": {
+														"$ref": "AAAAAAFy0SoQet9fc6g="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"left": 290,
+													"top": 172,
+													"height": 13,
+													"alpha": -1.5707963267948966,
+													"distance": 10,
+													"hostEdge": {
+														"$ref": "AAAAAAFy0SoQet9gj2s="
+													},
+													"edgePosition": 1
+												},
+												{
+													"_type": "UMLActivationView",
+													"_id": "AAAAAAFy0SoQet9kQNM=",
+													"_parent": {
+														"$ref": "AAAAAAFy0SoQet9gj2s="
+													},
+													"model": {
+														"$ref": "AAAAAAFy0SoQet9fc6g="
+													},
+													"font": "Arial;13;0",
+													"left": 397,
+													"top": 168,
+													"width": 14,
+													"height": 29
+												}
+											],
+											"font": "Arial;13;0",
+											"head": {
+												"$ref": "AAAAAAFxlwPvksYOYi8="
+											},
+											"tail": {
+												"$ref": "AAAAAAFxlwNatcXtPVE="
+											},
+											"points": "184:168;397:168",
+											"nameLabel": {
+												"$ref": "AAAAAAFy0SoQet9h4Kk="
+											},
+											"stereotypeLabel": {
+												"$ref": "AAAAAAFy0SoQet9ikdA="
+											},
+											"propertyLabel": {
+												"$ref": "AAAAAAFy0SoQet9jLa0="
+											},
+											"activation": {
+												"$ref": "AAAAAAFy0SoQet9kQNM="
 											}
 										},
 										{
@@ -674,7 +785,7 @@
 														"$ref": "AAAAAAFxlwuKfsdg1NA="
 													},
 													"font": "Arial;13;0",
-													"left": 394,
+													"left": 400,
 													"top": 195,
 													"width": 99.0107421875,
 													"height": 13,
@@ -684,7 +795,7 @@
 														"$ref": "AAAAAAFxlwuKfsdhbTc="
 													},
 													"edgePosition": 1,
-													"text": "3 : Scan the road"
+													"text": "4 : Scan the road"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -697,7 +808,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": 458,
+													"left": 464,
 													"top": 195,
 													"height": 13,
 													"alpha": 1.5707963267948966,
@@ -718,7 +829,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": 424,
+													"left": 430,
 													"top": 196,
 													"height": 13,
 													"alpha": -1.5707963267948966,
@@ -751,7 +862,7 @@
 											"tail": {
 												"$ref": "AAAAAAFxlwPvksYOYi8="
 											},
-											"points": "404:192;434:192;434:212;410:212",
+											"points": "410:192;440:192;440:212;410:212",
 											"nameLabel": {
 												"$ref": "AAAAAAFxlwuKfsdiTRs="
 											},
@@ -795,7 +906,7 @@
 														"$ref": "AAAAAAFxlwxGE8d4aZ8="
 													},
 													"edgePosition": 1,
-													"text": "4 : Alert the driver about pothole"
+													"text": "5 : Alert the driver about pothole"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -897,9 +1008,9 @@
 														"$ref": "AAAAAAFxlwyp4ceOVn8="
 													},
 													"font": "Arial;13;0",
-													"left": 426,
+													"left": 421,
 													"top": 248,
-													"width": 159.00244140625,
+													"width": 169.12060546875,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 10,
@@ -907,7 +1018,7 @@
 														"$ref": "AAAAAAFxlwyp4ceP01A="
 													},
 													"edgePosition": 1,
-													"text": "5 : Upload the data to cloud"
+													"text": "6 : Upload the data** to cloud"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -1018,7 +1129,7 @@
 														"$ref": "AAAAAAFxlw9E88fH89A="
 													},
 													"edgePosition": 1,
-													"text": "6 : Acknowledge it"
+													"text": "7 : Acknowledge it"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -1130,7 +1241,7 @@
 														"$ref": "AAAAAAFxlxBFy8fd5wQ="
 													},
 													"edgePosition": 1,
-													"text": "7 : Switch Off the device"
+													"text": "8 : Switch Off the device"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -1241,7 +1352,7 @@
 														"$ref": "AAAAAAFxlxC8IsfzFRo="
 													},
 													"edgePosition": 1,
-													"text": "8 : Upload a complete summary"
+													"text": "9 : Upload a complete summary"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -1342,9 +1453,9 @@
 														"$ref": "AAAAAAFxlxFhbcgKwr4="
 													},
 													"font": "Arial;13;0",
-													"left": 460,
+													"left": 457,
 													"top": 388,
-													"width": 88.16259765625,
+													"width": 95.392578125,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 10,
@@ -1352,7 +1463,7 @@
 														"$ref": "AAAAAAFxlxFhbcgLKOM="
 													},
 													"edgePosition": 1,
-													"text": "9 : Acknowldge"
+													"text": "10 : Acknowldge"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -1464,7 +1575,7 @@
 														"$ref": "AAAAAAFxlxHPXsgij8g="
 													},
 													"edgePosition": 1,
-													"text": "10 : say Goodbye message"
+													"text": "11 : say Goodbye message"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -1545,6 +1656,19 @@
 											"activation": {
 												"$ref": "AAAAAAFxlxHPXsgmFNE="
 											}
+										},
+										{
+											"_type": "UMLTextView",
+											"_id": "AAAAAAFy0Sr4Td96Cpg=",
+											"_parent": {
+												"$ref": "AAAAAAFxlwCuV8XUpNI="
+											},
+											"font": "Arial;13;0",
+											"left": 32,
+											"top": 536,
+											"width": 288,
+											"height": 66,
+											"text": "* Credentials such as Driving License and Password\n** Data such as Type of Pothole and Google Map coordinates"
 										}
 									]
 								}
@@ -1570,14 +1694,29 @@
 									"_parent": {
 										"$ref": "AAAAAAFxlwCuVsXTLCc="
 									},
-									"name": "Acknowledge that its on",
+									"name": "Login",
 									"source": {
 										"$ref": "AAAAAAFxlwPvksYHBQw="
 									},
 									"target": {
 										"$ref": "AAAAAAFxlwNatMXmaiQ="
 									},
-									"messageSort": "reply"
+									"messageSort": "reply",
+									"arguments": "Ask for Credentials*"
+								},
+								{
+									"_type": "UMLMessage",
+									"_id": "AAAAAAFy0SoQet9fc6g=",
+									"_parent": {
+										"$ref": "AAAAAAFxlwCuVsXTLCc="
+									},
+									"name": "Provide Credentials*",
+									"source": {
+										"$ref": "AAAAAAFxlwNatMXmaiQ="
+									},
+									"target": {
+										"$ref": "AAAAAAFxlwPvksYHBQw="
+									}
 								},
 								{
 									"_type": "UMLMessage",
@@ -1614,7 +1753,7 @@
 									"_parent": {
 										"$ref": "AAAAAAFxlwCuVsXTLCc="
 									},
-									"name": "Upload the data to cloud",
+									"name": "Upload the data** to cloud",
 									"source": {
 										"$ref": "AAAAAAFxlwPvksYHBQw="
 									},
@@ -1743,7 +1882,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFxlwCuVcXSE0o="
 							},
-							"name": "Role1"
+							"name": "Role1",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1751,7 +1891,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFxlwCuVcXSE0o="
 							},
-							"name": "Role2"
+							"name": "Role2",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1759,7 +1900,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFxlwCuVcXSE0o="
 							},
-							"name": "Role3"
+							"name": "Role3",
+							"type": ""
 						}
 					]
 				}
