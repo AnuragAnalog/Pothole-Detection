@@ -131,22 +131,30 @@ The following are the software sub-systems in the model:
 * AWS Config
 
 ### THE IMAGE PROCESSING SCHEME
+![Image Processing Scheme](./pictures/img-processing-scheme.jpeg)
 
 ### BRIEF OVERVIEW OF THE MODEL
+![Overview of the model](./pictures/model-overview.jpeg)
 
 ### SYSTEM UML DIAGRAMS
 
 #### USE CASE DIAGRAM
+![Use Case Diagram](./pictures/usecase.jpeg)
 
 #### CLASS DIAGRAM
+![Class Diagram](./pictures/class-diagram.jpeg)
 
 #### SEQUENCE DIAGRAM
+![Sequence Diagram](./pictures/sequence-diagram.jpeg)
 
 #### STATE DIAGRAM
+![State Diagram](./pictures/state-diagram.jpeg)
 
-#### LEVEL-0 DATA LOW DIAGRAM
+#### LEVEL-0 DATA FLOW DIAGRAM
+![Data Flow Diagram Level-0](./pictures/dfd0.jpeg)
 
-#### LEVEL-1 DATA LOW DIAGRAM
+#### LEVEL-1 DATA FLOW DIAGRAM
+![Data Flow Diagram Level-1](./pictures/dfd1.jpeg)
 
 ## TEST PLAN
 
