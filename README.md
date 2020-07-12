@@ -11,7 +11,7 @@ approaching a pothole driver may be warned regarding the pothole on the road. In
 paper, we propose a robust and straightforward design of a portable and affordable device
 that can alert the driver about the detected pothole. The hardware system installed in
 a moving vehicle can automatically detect and report potholes via image-processing
-of Raspberry-Pi microcontroller. The detail ed images of the pothole and its location are
+of Raspberry-Pi microcontroller. The detailed images of the pothole and its location are
 stored and viewed through the GOOGLE API.
 
 Index Terms — Pothole Detection, Hardware system, Raspberry-Pi microcontroller,
